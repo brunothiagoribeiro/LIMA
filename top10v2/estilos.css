@@ -1,5 +1,12 @@
+*{text-align: center;}
 body{
     background-color: white;
+}
+img{
+    width: 100%;           /* Largura da imagem */
+    height: 50%; /* Comprimento da imagem */        
+    border: 8px solid;
+    border-color: black;
 }
 h1{
     color: black;
