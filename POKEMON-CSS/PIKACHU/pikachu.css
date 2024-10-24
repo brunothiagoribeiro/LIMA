@@ -1,0 +1,141 @@
+body{
+    background: #ffe600;
+    font-size: 100px;
+}
+
+#pikachu{
+ position: absolute;
+ width: 4.2em;
+ height: 2.35em;
+ left: 33%;
+ top:33%;
+}
+
+.olho{
+    width: .57em;
+    height: .57em;
+    border: .03em solid black;
+    background-color: #2e2e2e;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: .6em;
+}
+
+.olho:after{
+width: .25em;
+height: .25em;
+border: .03 solid black;
+background: #fff;
+content: '';
+display: block;
+position: absolute;
+border-radius: 100%;
+margin-left: .07em;
+margin-top: -.02em;
+}
+
+.olho.direito {
+    right: .6em;
+}
+
+.nariz {
+    position: absolute;
+    margin: .3em calc(50% - .11em);
+    margin-top: .38em;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-top: .09 solid black;
+    border-left: .11em solid transparent;
+    border-right: .11em solid transparent;
+    box-shadow: 0 -.01em 0 black;
+}
+
+.nariz:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: .22em;
+    height: .05em;
+    background: black;
+    border-top-left-radius: .11em .05em;
+    border-top-right-radius: .11em .05em;
+    margin-top: -.12em;
+    margin-left: -.11em;
+}
+
+.boca{
+    position: absolute;
+    width: 2.28em;
+    height: 1.8em;
+    margin-top: .65em;
+    margin-left: calc(50% - 1.18em);
+    overflow: hidden;
+}
+.boca:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: .8em;
+    height: .25em;
+    background: #ffe600;
+    border: .03 solid black;
+    border-top: none;
+    border-left:none ;
+    right: .25em;
+    top: -.05em;
+    border-bottom-right-radius:.6em .3em ;
+    box-shadow: 0 -.1em #ffe600, -.05 -.03 0 #ffe600;
+}
+
+ .boca:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: .8em;
+    height: .25em;
+    background: #ffe600;
+    border: .03em solid black;
+    border-top: none;
+    border-right: none;
+    left: .35em;
+    top: -.05;
+    border-bottom-left-radius: .6em .3em;
+    box-shadow: 0 -.1em 0 #ffe600, 0.5em -.03em 0 #ffe600;
+    z-index: 1;
+ }
+
+ .boc>div{
+    position: absolute;
+    background: #ff485f;
+    width: 2.28em;
+    height: 8em;
+    border:.04 solid black;
+    border-bottom-left-radius: 1.18em 8em;
+    border-bottom-right-radius:1.18em 8em ;
+    margin: -637em;
+    overflow: hidden;
+ }
+
+ .boca>div:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1.3em;
+    height: 1em;
+    box-shadow: 0 -.7em 0 #9b000a;
+    bottom: .35;
+    margin-left: .49;
+    border-top-left-radius:100% ;
+    border-top-right-radius:100% ;
+ }
+
+ .bochecha{
+    width: .82em;
+    height: .82em;
+    border: .03em solid black;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 1.1em;
+    background: #f00;
+ }
