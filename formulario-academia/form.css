@@ -1,0 +1,56 @@
+/* Dev. by Leandromeda */
+
+label, input, select, textarea{
+    display: block ;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.roboto-thin {
+   font-family: "Roboto", sans-serif;
+ }
+
+ form{
+    width: 550px;
+    margin: auto;
+    background: #eee;
+    padding: 40px;
+    border-radius: 10px;
+ }
+ label{
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    font-size: 18px;
+ }
+ .emlinha{
+    display: inline;
+    width: 10%;
+    font-size: 16px;
+ }
+ .medidas{
+    display: inline;
+    width: 35%;
+ }
+ input[type='checkbox'], input[type='radio']{
+   margin-right: 0px;
+   margin-left: 15px;
+}
+input:focus, select:focus, textarea:focus{
+   outline: none;
+   border: solid 1px #ffb300;
+}
+ #enviar{
+   width: 100%;
+   border: 2px solid #ffb300;
+   background-color: #fff;
+   color: #ffb300;
+   font-weight: bold;
+   cursor: pointer;
+   padding: 15px;
+ }
+ #enviar:hover{
+  background-color: #ffb300;
+  color: #fff;
+transition:all linear 0.3;
+ }

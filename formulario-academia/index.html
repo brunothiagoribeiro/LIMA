@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO ACADEMIA</title>
+</head>
+<body>
+    <form action="#"method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"
+        required="required" autofocus><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email"id="email" required placeholder="Exemplo: email@email.com"><br>
+        <label for=""></label>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone"id="telefone" required placeholder="Exemplo: 00 00000-0000"><br>
+        <label for=""></label>
+        <label for="dt-nasc">Data de Nascimento</label>
+        <input type="date" name="dt-nasc"id="dt-nasc"required><br>
+        <label for="Peso" class="medidas"> Peso:</label>
+        <input type="number"name="peso" id="peso"class="medidas" required step="0.01"><br>
+        <label for="Altura" class="medidas"> Altura:</label>
+        <input type="number"name="altura" id="altura"class="medidas" required step="0.01"><br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto"id="foto" required><br>
+        <label for="">Plano:</label>
+        <input class="emlinha" type="radio" name="plano"
+        id="semanal">
+        <label class="emlinha">Semanal</label>
+        <input class="emlinha" type="radio" name="plano"
+        id="mensal">
+        <label class="emlinha">Mensal</label>
+        <input class="emlinha" type="radio" name="plano"
+        id="anual">
+        <label class="emlinha">Anual</label>
+
+        <label for="Dias da Semana">Dias da Semana:</label>
+        <input class="emlinha" type="checkbox" name="segunda" id="segunda"></input:class>
+        <label class="emlinha" for="segunda"> Segunda Feira</label><br>
+        <input class="emlinha" type="checkbox" name="terça" id="terca"></input:class>
+        <label class="emlinha" for="terça"> Terça Feira</label><br>
+        <input class="emlinha" type="checkbox" name="quarta" id="quarta"></input:class>
+        <label class="emlinha" for="quarta"> Quarta Feira</label><br> 
+        <input class="emlinha" type="checkbox" name="quinta" id="quinta"></input:class>
+        <label class="emlinha" for="quinta"> Quinta Feira</label><br>
+        <input class="emlinha" type="checkbox" name="sexta" id="sexta"></input:class>
+        <label class="emlinha" for="sexta"> Sexta Feira</label><br>
+        <input class="emlinha" type="checkbox" name="sabado" id="sabado"></input:class>
+        <label class="emlinha" for="sabado"> Sabado</label><br>
+        <input class="emlinha" type="checkbox" name="domingo" id="domingo"></input:class>
+        <label class="emlinha" for="domingo"> Domingo</label><br>
+        <label for="">Objetivo principal do treino</label>
+        <select name="Objetivo" required>
+            <option value="">Selecione ...</option>
+            <option value="massa muscular">Ganho de massa muscular</option>
+            <option value="cardiovascular">Melhoria da saúde cardiovascular</option>
+            <option value="flexibilidade">Aumento da flexibilidade</option>
+            <option value="mental">Melhoria da saúde mental</option>
+            <option value="outros">Outros...</option>
+            </select>
+            <br>
+            <label for="">Informações Adicionais:</label>
+            <textarea name="Informações" rows="8" cols="25" maxlength="100" required placeholder="Eu tenho problemas cardiacos e asma!">
+            </textarea>
+            <br>
+            <input type="submit" name="enviar" value="enviar" id="enviar">
+            <p>
+                <button id = "enviar" href = "enviado.html">Enviar(Simulação)</button> 
+            </p>
+    </form>
+
+</body>
+</html>
